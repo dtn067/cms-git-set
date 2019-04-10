@@ -1,0 +1,31 @@
+
+
+Decisions on April 8th:
+1. We will meet weekly on Thursday at 11am, in Igor's office.
+2. To do for next meeting:
+   2.1 switch to new data that has sitename in it
+       - Relevant plots are in 'Results/classads' in directories corresponding
+         to the site name
+   2.2 High level description of what is in the data tyoum arte working with"
+       2.2.3 How many days are covered? From when to when?
+       2.2.4 Describe to me the structure of what a ROW means.
+             The key for each row is a compund of Day+data_tier+crab_job+input_campaign
+             i.e. for each day and each data_tier each campaign and each of two job types (crab True or false) we have aggregated infor for each input campaign.
+                - Each row contains information for a given set of jobs
+             We agree to require always crab_job==True && data_tier == *MINIAOD*
+             
+       2.2.4 High level characterization of the data we have to work with in the working_set_day:
+             how many days?
+                - 1032251 days
+             how many input campaigns?
+                - 319 unique input campaigns
+             how many jobs total?
+                - 604617621 total jobs
+       2.2.5 High level characterization of dbs_blocks:
+             how many blocks total?
+             how much data total across all blocks?
+             What is the distribution of block sizes ?
+             What is the distribution of # of blocks per campaign ? (x-axis is # of blocks, Y-axis is how many campaings have that many blocksd)
+             What is the distribution of data size per campaign ?
+             
+             
