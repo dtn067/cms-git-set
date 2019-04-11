@@ -40,5 +40,11 @@ Decisions on April 8th:
                
      New things from April 11th:
      Now that we have a sense of what the data looks like that we are using, let's now do some studies of the reuse of data.
+     next step is to plot time histories for:
+     -> unique # of blocks accessed in a given 2 week period verus time
+     -> same as above but for uniqie volume in bytes
+     -> total # of blocks
+     -> total bytes
+     -> ratio of total/unique versus time
      
      
