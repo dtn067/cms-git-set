@@ -33,4 +33,6 @@ Decisions on April 8th:
                 => compute the sum of unique blocks accessed
              What is the distribution of block sizes ?
              What is the distribution of # of blocks per campaign ? (x-axis is # of blocks, Y-axis is how many campaings have that many blocksd)
+               => redo the plot the way we discussed. Make one with log10 as x-axis, and a second one with linear, just for the most popular bin on the log10 plot.
              What is the distribution of data size per campaign ?
+               => similar to the previous plot.
