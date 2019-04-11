@@ -18,15 +18,19 @@ Decisions on April 8th:
              how many days?
                 - There are 999 unique days on which blocks are accessed in the 
                   working_set_day (spanning the set of days that are covered)
+                  => This means that there are 1089-999=90 days where we have no information.
+                     Let's check the 7 days before and 7 days after for the 90 days missing, and calculate the average # of jobs per day for each of those 14 days around a hole in the record.
              how many input campaigns?
                 - 319 unique input campaigns
              how many jobs total?
-                - 604617621 total jobs
+                - 604,617,621 total jobs
        2.2.5 High level characterization of dbs_blocks:
              how many blocks total?
-                - 8935351
+                - 8,935,351
              how much data total across all blocks?
                 - 361.268 PB
+                => see if we have an valid/invalid flag in dbs_blocks ... if yes, get same number for valid and invalid separately.
+                => compute the sum of unique blocks accessed
              What is the distribution of block sizes ?
              What is the distribution of # of blocks per campaign ? (x-axis is # of blocks, Y-axis is how many campaings have that many blocksd)
              What is the distribution of data size per campaign ?
