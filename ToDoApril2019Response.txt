@@ -30,21 +30,29 @@ Decisions on April 8th:
              how much data total across all blocks?
                 - 361.268 PB
                 => see if we have an valid/invalid flag in dbs_blocks ... if yes, get same number for valid and invalid separately.
+                - Revised (after rescaling to base 2): 180.63 PB
+                - This makes more sense
                 => compute the sum of unique blocks accessed
+                - 861526
              What is the distribution of block sizes ?
              What is the distribution of # of blocks per campaign ? (x-axis is # of blocks, Y-axis is how many campaings have that many blocksd)
                => redo the plot the way we discussed. Make one with log10 as x-axis, and a second one with linear, just for the most popular bin on the log10 plot.
+               - 'Results/dbs_blocks/blockQuantityPerCampaign.png'
              What is the distribution of data size per campaign ?
                => similar to the previous plot.
+               - 'Results/dbs_blocks/bytesPerCampaign.png'
                
                
      New things from April 11th:
      Now that we have a sense of what the data looks like that we are using, let's now do some studies of the reuse of data.
      next step is to plot time histories for:
      -> unique # of blocks accessed in a given 2 week period verus time
+        - 'Results/dbs_blocks/uniqueBlockAccessed2Weeks.png'
      -> same as above but for uniqie volume in bytes
+        - 'Results/dbs_blocks/uniqueByteAccessed2Weeks.png'
      -> total # of blocks
+        - 'Results/dbs_blocks/totalBlockAccessed2Weeks.png'
      -> total bytes
+        - 'Results/dbs_blocks/totalByteTotal2Weeks.png'
      -> ratio of total/unique versus time
-     
-     
+        - 'Results/dbs_blocks/totalUniqueByteRatio2Weeks.png'
