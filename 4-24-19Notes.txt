@@ -1,0 +1,24 @@
+2.1 Characterize the data you work with
+
+2.2 "Working Set vs Time"
+    For MINIAOD <-- Data from detector, MINIAODSIM <-- Data from simulation
+    && CRAB_jobs <-- tool that analysis is being done with
+2.3 "Change in working set vs time" (for the same formats)
+    Interested in the daily changes
+    Change of the sum (for two weeks) by moving the period by one day
+    Two plots: One that shows the (old) data being removed and one that
+               shows the (new) data being added
+
+Make presentations of what I've been asked to do with judgement
+Spend more time justifying the results
+
+Template for a Talk:
+1. Outline of purpose
+2. Pointer to Past Results (where to find previous stuff and how current 
+   results relates to previous results)
+3. For every slide:
+    Plot/Table
+    Definition of what it is (x, y axis)
+    Conclusion Sentence/paragraph
+
+Fix Plots - 
